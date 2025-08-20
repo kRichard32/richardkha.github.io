@@ -10,6 +10,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/custom.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 	</head>
 	<body class="is-preload">
 
@@ -23,8 +25,13 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
+							<div class="logo"><span class="icon fa-gem"></span></div>
 							<h2>Richard Kha</h2>
-							<p> Recent C.S graduate </p>
+							<p>Computer Science Graduate | Software Developer</p>
+							<div class="banner-buttons">
+								<!-- <a href="#one" class="button primary scrolly">Learn More</a> -->
+								<a href="files/CV.pdf" class="button primary" target="_blank">Download CV</a>
+							</div>
 						</div>
 					</section>
 
@@ -34,89 +41,138 @@
 						<!-- One -->
 							<section id="one" class="wrapper alt style1">
 								<div class="inner">
-									<a href="#" class="image"></a>
-									<div class="content">
-										<h2 class="major">About Me</h2>
-										<p> Hello! <br>
-											I am a undergraduate student currently studying computer science at the University of Toronto. I have been programming since I was young, and have a 
-											strong passion for both programming and computer science. I am currently most interested in deep learning and memory mechanisms for neural networks.
-										    
-											</p>
+									<div class="split style1">
+										<section>
+											<div class="content">
+												<h2 class="major">About Me</h2>
+												<p>Hello! I'm a computer science graduate from the University of Toronto with a passion for programming and technology. My journey in computer science began at a young age, and I've been fascinated by the endless possibilities that code can create.</p>
+												
+												<p>I'm interested in <strong>deep learning</strong> and <strong>computer systems</strong> and <strong>software development</strong>, with particular interest in how AI can solve complex real-world problems. My recent work includes research on JIT compiler optimization and speech diarization models.</p>
+												
+												<p>When I'm not coding, you'll find me exploring new technologies or working on my startup <strong><a href="https://kokosocial.ca/">Koko</a></strong>.</p>
+												
+												<ul class="contact-list">
+													<li><i class="fas fa-map-marker-alt"></i> Toronto, Ontario, Canada</li>
+													<li><i class="fas fa-graduation-cap"></i> Computer Science, University of Toronto</li>
+													<li><i class="fas fa-code"></i> Java, Python, JavaScript, C++</li>
+												</ul>
+											</div>
+										</section>
+										<section>
+											<div class="image-placeholder">
+												<div class="profile-card">
+													<div class="skills">
+														<h3>Technical Skills</h3>
+														<div class="skill-item">
+															<span>Machine Learning</span>
+															<div class="skill-bar"><div class="skill-fill" style="width: 90%"></div></div>
+														</div>
+														<div class="skill-item">
+															<span>Java Development</span>
+															<div class="skill-bar"><div class="skill-fill" style="width: 95%"></div></div>
+														</div>
+														<div class="skill-item">
+															<span>Python</span>
+															<div class="skill-bar"><div class="skill-fill" style="width: 88%"></div></div>
+														</div>
+														<div class="skill-item">
+															<span>Web Development</span>
+															<div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</section>
 									</div>
 								</div>
 							</section>
 
 							<section id="two" class="wrapper style1">
 								<div class="inner">
-									<h2 class="major"> Written work </h2>
-									<p> </p>
+									<h2 class="major">Research & Publications</h2>
+									<p>My academic work focuses on advancing computer science through practical research in system optimization and machine learning.</p>
 									<section class="features">
 										<article>
-											<a href="https://hotinfra24.github.io/papers/hotinfra24-final79.pdf" class="image"><img src="images/scheduling.png" alt="" /></a>
-											<h3 class="major"></h3>
+											<a href="https://hotinfra24.github.io/papers/hotinfra24-final79.pdf" class="image"><img src="images/scheduling.png" alt="JIT Server Scheduling Research" /></a>
+											<h3 class="major">JIT Server Optimization</h3>
 											<p>
-												Studied the behaviour of the OpenJ9 JITServer (disaggregated JIT compiler) and developed a scheduling algorithm which improves the 
-												server in high load senarios. Co-wrote a workshop paper which was presented at HotInfra 2024 (held in conjunction with SOSP 2024)
+												Researched the behavior of OpenJ9 JITServer and developed an innovative scheduling algorithm that improves server performance under high-load scenarios. Co-authored and presented at <strong>HotInfra 2024</strong> (SOSP 2024).
 											</p>
-											<a href="https://hotinfra24.github.io/papers/hotinfra24-final79.pdf" class="special"></a>
+											<a href="https://hotinfra24.github.io/papers/hotinfra24-final79.pdf" class="special">Read Paper</a>
 										</article>
 										<article>
-											<a href="https://krichard32.github.io/richardkha.github.io/papers/CSC494Diarization.pdf" class="image"><img src="images/diarization.png" alt="" /></a>
-											<h3 class="major"></h3>
+											<a href="https://krichard32.github.io/richardkha.github.io/papers/CSC494Diarization.pdf" class="image"><img src="images/diarization.png" alt="Speech Diarization Research" /></a>
+											<h3 class="major">AI Speech Diarization</h3>
 											<p>
-												Studied diarization models and created a improved version of a state-of-the-art model, for child-adult speech diarization. Wrote a brief report on our findings.
+												Improved an state-of-the-art model for child-adult speech diarization, enhancing accuracy in ASD therapy environments. Research focused on advancing machine learning applications in speech processing.
 											</p>
-											<a href="https://krichard32.github.io/richardkha.github.io/papers/CSC494Diarization.pdf" class="special"></a>
+											<a href="https://krichard32.github.io/richardkha.github.io/papers/CSC494Diarization.pdf" class="special">Read Report</a>
 										</article>
 									</section>
 								</div>
 							</section>
-						<!-- Two -->
+						<!-- Three -->
 							<section id="three" class="wrapper alt style1">
 								<div class="inner">
-									<h2 class="major"> Personal projects</h2>
-									<p> </p>
+									<h2 class="major">Featured Projects</h2>
+									<p>A collection of projects showcasing my development skills across different technologies and platforms.</p>
 									<section class="features">
 										<article>
-											<a href="https://github.com/donk3665/MinigameRefactor" class="image"><img src="images/crz.png" alt="" /></a>
-											<h3 class="major"></h3>
+											<a href="https://github.com/donk3665/MinigameRefactor" class="image"><img src="images/crz.png" alt="Fighting and Rhythm Game" /></a>
+											<h3 class="major">Multi-Game Platform</h3>
+											<div class="project-tags">
+												<span class="tag">Java</span>
+												<span class="tag">JavaFX</span>
+												<span class="tag">Multiplayer</span>
+											</div>
 											<p>
-												A combination of a fighting game and a rhythm game made in java with javafx. Both games allow
-												for local multiplayer.
-												Made in high school, refactored in university.
+												An innovative combination of fighting and rhythm games built with JavaFX. Features local multiplayer support and custom game mechanics. Originally developed in high school and refactored during university.
 											</p>
-											<a href="https://github.com/donk3665/MinigameRefactor" class="special"></a>
+											<a href="https://github.com/donk3665/MinigameRefactor" class="special">View on GitHub</a>
 										</article>
 										<article>
-											<a href="https://github.com/donk3665/Capital-City" class="image"><img src="images/cap.png" alt="" /></a>
-											<h3 class="major"></h3>
+											<a href="https://github.com/donk3665/Capital-City" class="image"><img src="images/cap.png" alt="Capital City Monopoly Game" /></a>
+											<h3 class="major">Capital City</h3>
+											<div class="project-tags">
+												<span class="tag">Java</span>
+												<span class="tag">Swing</span>
+												<span class="tag">Networking</span>
+											</div>
 											<p>
-												A Monopoly clone based on Toronto landmarks made in java with swing. Uses sockets which 
-												connect to an external server for multiplayer.
-												Made in university.
+												A sophisticated Monopoly clone featuring Toronto landmarks, built with Java Swing. Implements socket-based networking for multiplayer functionality with external server connectivity.
 											</p>
-											<a href="https://github.com/donk3665/Capital-City" class="special"></a>
+											<a href="https://github.com/donk3665/Capital-City" class="special">View on GitHub</a>
 										</article>
 										<article>
-											<a href="https://github.com/donk3665/TetrisClone" class="image"><img src="images/tet.png" alt="" /></a>
-											<h3 class="major"></h3>
+											<a href="https://github.com/donk3665/TetrisClone" class="image"><img src="images/tet.png" alt="Modern Tetris Clone" /></a>
+											<h3 class="major">Modern Tetris</h3>
+											<div class="project-tags">
+												<span class="tag">Java</span>
+												<span class="tag">JavaFX</span>
+												<span class="tag">Game Dev</span>
+											</div>
 											<p>
-												A modern tetris clone made in java with javafx. Uses custom elements except for the music.
-												Made in high school, partially refactored in university.
+												A polished Tetris implementation featuring modern graphics and smooth gameplay. Built with custom elements and custom game mechanics, showcasing JavaFX development skills.
 											</p>
-											<a href="https://github.com/donk3665/TetrisClone" class="special"></a>
+											<a href="https://github.com/donk3665/TetrisClone" class="special">View on GitHub</a>
 										</article>
 										<article>
-											<video width="495" height="360" controls>
-												<source src="video/breakoutdemo.mp4" type="video/mp4">
-											  </video><h3 class="major"></h3>
+											<div class="video-container">
+												<video width="100%" height="360" controls>
+													<source src="video/breakoutdemo.mp4" type="video/mp4">
+												</video>
+											</div>
+											<h3 class="major">MIPS Breakout</h3>
+											<div class="project-tags">
+												<span class="tag">MIPS Assembly</span>
+												<span class="tag">Low-level</span>
+												<span class="tag">Computer Architecture</span>
+											</div>
 											<p>
-												The game of breakout made in mips architecture. Final project for the course CSC258: Computer Organization.
-												Made in university.
+												Classic Breakout game implemented in MIPS assembly language. Final project for CSC258: Computer Organization, demonstrating understanding of low-level programming and computer architecture concepts.
 											</p>
-											<a href="https://github.com/donk3665/TetrisClone" class="special"></a>
+											<a href="#" class="special">View Demo</a>
 										</article>
-								
 									</section>
 								</div>
 							</section>
@@ -126,8 +182,41 @@
 				<!-- Footer -->
 					<section id="footer">
 						<div class="inner">
+							<h2 class="major">Let's Connect</h2>
+							<p>I'm always interested in discussing new opportunities, collaborating on projects, or just having a conversation about technology.</p>
+							<div class="contact-grid">
+								<div class="contact-item">
+									<span class="icon solid fa-envelope"></span>
+									<div>
+										<h3>Email</h3>
+										<p><a href="mailto:richardkha3665k@gmail.com">richardkha3665k@gmail.com</a></p>
+									</div>
+								</div>
+								<div class="contact-item">
+									<span class="icon brands fa-github"></span>
+									<div>
+										<h3>GitHub</h3>
+										<p><a href="https://github.com/kRichard32" target="_blank">@kRichard32</a></p>
+									</div>
+								</div>
+								<div class="contact-item">
+									<span class="icon brands fa-linkedin"></span>
+									<div>
+										<h3>LinkedIn</h3>
+										<p><a href="https://www.linkedin.com/in/richard-kha-84187a238/" target="_blank">Connect with me</a></p>
+									</div>
+								</div>
+								<div class="contact-item">
+									<span class="icon solid fa-map-marker-alt"></span>
+									<div>
+										<h3>Location</h3>
+										<p>Toronto, Ontario, Canada</p>
+									</div>
+								</div>
+							</div>
 							<ul class="copyright">
-								<li>&copy; Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; 2024 Richard Kha. All rights reserved.</li>
+								<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
@@ -141,6 +230,54 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				// Enhanced interactions
+				$(document).ready(function() {
+					// Animate skill bars when they come into view
+					$(window).scroll(function() {
+						$('.skill-item').each(function() {
+							var elementTop = $(this).offset().top;
+							var elementBottom = elementTop + $(this).outerHeight();
+							var viewportTop = $(window).scrollTop();
+							var viewportBottom = viewportTop + $(window).height();
+							
+							if (elementBottom > viewportTop && elementTop < viewportBottom) {
+								$(this).find('.skill-fill').css('animation', 'skillLoad 2s ease-in-out forwards');
+							}
+						});
+					});
+					
+					// Smooth scrolling for internal links
+					$('a[href^="#"]').on('click', function(event) {
+						var target = $(this.getAttribute('href'));
+						if(target.length) {
+							event.preventDefault();
+							$('html, body').stop().animate({
+								scrollTop: target.offset().top - 100
+							}, 1000);
+						}
+					});
+					
+					// Add loading animation to images
+					$('img').on('load', function() {
+						$(this).addClass('loaded');
+					});
+					
+					// Enhanced hover effects for project cards
+					$('.features article').hover(
+						function() {
+							$(this).find('.tag').each(function(index) {
+								setTimeout(() => {
+									$(this).css('transform', 'translateY(-3px)');
+								}, index * 100);
+							});
+						},
+						function() {
+							$(this).find('.tag').css('transform', 'translateY(0)');
+						}
+					);
+				});
+			</script>
 
 	</body>
 </html>
