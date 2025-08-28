@@ -63,22 +63,16 @@
 												<div class="profile-card">
 													<div class="skills">
 														<h3>Technical Skills</h3>
-														<div class="skill-item">
-															<span>Machine Learning</span>
-															<div class="skill-bar"><div class="skill-fill" style="width: 90%"></div></div>
-														</div>
-														<div class="skill-item">
-															<span>Java Development</span>
-															<div class="skill-bar"><div class="skill-fill" style="width: 95%"></div></div>
-														</div>
-														<div class="skill-item">
-															<span>Python</span>
-															<div class="skill-bar"><div class="skill-fill" style="width: 88%"></div></div>
-														</div>
-														<div class="skill-item">
-															<span>Web Development</span>
-															<div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
-														</div>
+														<ul class="skills-list">
+															<li>Machine Learning and AI</li>
+															<li>Data Structures & Algorithms</li>
+															<li>Database management: PostgreSQL</li>
+															<li>Languages: Java, Python, C, React</li>
+															<li>Version Control: Git, GitHub</li>
+															<li>Cloud computing: Google Cloud Platform</li>
+															<li>Mobile App development: Android</li>
+															<li>Full-Stack Development</li>
+														</ul>
 													</div>
 												</div>
 											</div>
@@ -233,19 +227,7 @@
 			<script>
 				// Enhanced interactions
 				$(document).ready(function() {
-					// Animate skill bars when they come into view
-					$(window).scroll(function() {
-						$('.skill-item').each(function() {
-							var elementTop = $(this).offset().top;
-							var elementBottom = elementTop + $(this).outerHeight();
-							var viewportTop = $(window).scrollTop();
-							var viewportBottom = viewportTop + $(window).height();
-							
-							if (elementBottom > viewportTop && elementTop < viewportBottom) {
-								$(this).find('.skill-fill').css('animation', 'skillLoad 2s ease-in-out forwards');
-							}
-						});
-					});
+					// Skill bars are now static - animation removed
 					
 					// Smooth scrolling for internal links
 					$('a[href^="#"]').on('click', function(event) {
